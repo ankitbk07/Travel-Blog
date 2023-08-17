@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+body {
+  background-color: #e0e5e7;
+  color: #333333;
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+
+
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.article-post
+{
+  margin-top:1rem;
+}
+
+.img-container
+{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+
+}
+
+#userDropdown
+{
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.img-post
+{
+  width:700px;
+  /* margin:0 auto; */
+}
+
+.user-settings
+{
+  display: flex;
+  align-items: center;
+  gap:24px;
+
+
+}
+
+.navbar-right
+{ 
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-head
+{
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 5px;
+  font-size: 35px;
+}
+
+.travel-logo
+{
+  width: 35px;
+  border-radius: 30%;
+  margin-right: 10px;
+
+}
+
+.login-signup
+{
+  display: flex;
+}
+
+small
+{ 
+  font-size: 85%;
+}
+
+.form-text .text-muted
+{
+  margin: 0 auto;
+}
+.btn-submit
+{
+  margin: 5px;
+  text-align: center;
+}
+
+.pagination
+{
+  margin-top: 10px;
+
+}
